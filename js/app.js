@@ -31,22 +31,22 @@ const getProducts = async () => {
 
 //UI
 function displayProducts(products) {
-    for (const [product] of products) {
+    for (const product of products) {
         let displayProducts = document.createElement("article");
         displayProducts.className = "product";
         displayProducts.innerHTML = `
         <div class="img-container">
-            <img src=${product.image} alt="Producto" class="product-img">
+            <img src="${product.image}" alt="Producto" class="product-img">
             <button class="bag-btn" data-id=${product.id}>
                 <i class="fa-solid fa-cart-shopping"></i>
                 Agregar al carrito
             </button>
         </div>
         <h3>${product.title}</h3>
-        <h4>${product.price} $</h4>
+        <h4>$${product.price}</h4>
         `;
         productsDOM.appendChild(displayProducts);
-    }
+    };
 }
 
 const getButtons = () => {
@@ -100,10 +100,10 @@ const addCartItem = item => {
     let div = document.createElement("div");
     div.className = "cart-item";
     div.innerHTML = `
-    <img src="${item.image}" alt="Producto">
+    <img src="${item.image}"alt="Producto">
     <div>
         <h4>${item.title}</h4>
-        <h5>${item.price} $</h5>
+        <h5>$${item.price}</h5>
         <span class="remove-item" data-id=${item.id}>Eliminar</span>
     </div>
     <div>

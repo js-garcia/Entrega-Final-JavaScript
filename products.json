@@ -34,17 +34,41 @@
         "image": "image/product-5.jpg"
     },
 
-    {
-        "id": 6, 
-        "title": "Llamita", 
-        "price": 1690, 
-        "image": "image/product-6.jpg"
-    },
 
     {
-        "id": 7, 
+        "id": 6, 
         "title": "Sirena", 
         "price": 1790, 
+        "image": "image/product-6.jpg"
+    },
+    {
+        "id": 7, 
+        "title": "kit-Sonajeros", 
+        "price": 2700, 
         "image": "image/product-7.jpg"
+    },
+    {
+        "id": 8, 
+        "title": "Unicornios", 
+        "price": 2100, 
+        "image": "image/product-8.jpg"
+    },
+    {
+        "id": 9, 
+        "title": "Minions", 
+        "price": 1980, 
+        "image": "image/product-9.jpg"
+    },
+    {
+        "id": 10, 
+        "title": "Dragon", 
+        "price": 1980, 
+        "image": "image/product-10.jpg"
+    },
+    {
+        "id": 11, 
+        "title": "Homero", 
+        "price": 1980, 
+        "image": "image/product-11.jpg"
     }
 ]
